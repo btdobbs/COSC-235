@@ -1,1 +1,10 @@
-
+s = input("Enter a string: ")
+print("String: ", s)
+print("Length of string: ", len(s))
+print("First character of string: ", s[0])
+print("Middle character of string: ", s[len(s) // 2])
+print("Last character of string: ", s[len(s) - 1])
+vowel_count = s.count("a") + s.count("A") + s.count("e") + s.count("E") + s.count("i") + s.count("I") + s.count("o") \
+              + s.count("O") + s.count("u") + s.count("U")
+print("Vowel count: ", vowel_count)
+print("Non-vowel count: ", len(s)-vowel_count)
