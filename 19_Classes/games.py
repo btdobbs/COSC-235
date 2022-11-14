@@ -13,4 +13,4 @@ class CubeDie:
         self._top = random.randint(1,6)
 
     def __str__(self):
-        print("[",self._top,"]",sep="")
+        return "[" + self._top + "]"
